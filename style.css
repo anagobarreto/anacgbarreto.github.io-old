@@ -385,3 +385,19 @@ h1 {
   margin: 160px 0 70px 0;
   font-weight: bold;
 }
+
+footer a {
+  color: #fff;
+}
+
+footer {
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  opacity:.5;
+
+}
+
+
+
+
