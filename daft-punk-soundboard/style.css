@@ -1,0 +1,50 @@
+body {
+  background-color: #000;
+  font-family: 'Open Sans Condensed', sans-serif;
+  width: 500px;
+  margin: 0 auto;
+  user-select: none;
+}
+
+img {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+
+.btn {
+  font-size: 20px;
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  padding: 5px;
+  border: 1px dotted grey;
+  margin: 5px;
+  width: 90px;
+  height: 90px;
+  position: relative;
+  line-height: 90px;
+  cursor: pointer;
+  transition: all 34ms ease-in-out;
+}
+
+.btn:active {
+  background-color: #fbff9a;
+}
+
+.firstLine {
+  color: #e60000;
+}
+.secondLine {
+  color: #ffffcc;
+}
+.thirdLine {
+  color: #e6e600;
+}
+
+.fourthLine {
+  color: #990000;
+  margin-bottom: 50px;
+}
