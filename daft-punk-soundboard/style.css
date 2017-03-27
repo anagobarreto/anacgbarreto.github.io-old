@@ -4,6 +4,7 @@ body {
   width: 500px;
   margin: 0 auto;
   user-select: none;
+  font-size: 20px;
 }
 
 img {
@@ -12,10 +13,12 @@ img {
   margin-bottom: 20px;
   width: 100%;
 }
-
+p {
+  color: #fbff9a;
+  text-align: center;
+}
 
 .btn {
-  font-size: 20px;
   display: inline-block;
   width: 20%;
   text-align: center;
@@ -25,7 +28,7 @@ img {
   width: 90px;
   height: 90px;
   position: relative;
-  line-height: 90px;
+  line-height: 45px;
   cursor: pointer;
   transition: all 34ms ease-in-out;
 }
@@ -33,18 +36,20 @@ img {
 .btn:active {
   background-color: #fbff9a;
 }
+.btn p {
+  margin: 0;
+}
 
-.firstLine {
+.firstLine p{
   color: #e60000;
 }
-.secondLine {
+.secondLine p {
   color: #ffffcc;
 }
-.thirdLine {
+.thirdLine p {
   color: #e6e600;
 }
 
-.fourthLine {
+.fourthLine p {
   color: #990000;
-  margin-bottom: 50px;
 }
