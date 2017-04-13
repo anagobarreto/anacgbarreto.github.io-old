@@ -317,9 +317,6 @@ header {
   }
 }
 
-
-
-
 .directory {
   text-align:center;
   position: fixed;
@@ -397,7 +394,14 @@ footer {
   opacity:.5;
 
 }
+/*
+#daft img a {
+  height: 250px;
+  width: 250px;
+
+}*/
 
 
-
-
+.daft {
+  background-image: url("socialmedia/daft.png");
+}
